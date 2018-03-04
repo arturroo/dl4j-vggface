@@ -1,2 +1,23 @@
-*.class
-*.log
+# sbt specific
+/project/*
+!/project/assembly.sbt
+!/project/plugins.sbt
+/target/
+/src/*
+!/src/main/
+/src/main/*
+!/src/main/scala
+
+project/*
+!project/assembly.sbt
+!project/plugins.sbt
+target/
+src/*
+!src/main/
+src/main/*
+!src/main/scala
+
+
+# InteliJ
+.idea/
+vgg16.zip
